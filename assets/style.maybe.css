@@ -1,0 +1,38 @@
+@import "reset.css";
+@import "grids.css";
+html, body {
+    background: none repeat scroll 0 0 #444444;
+    font: 10pt 'Segoe UI', 'Noto Sans',sans-serif;
+}
+a {
+    color: #E0E0E0;
+    text-decoration: none;
+    transition: all 250ms ease-in-out 0s;
+}
+a:hover {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 10px;
+}
+ul.menu {
+    margin: 0.5em 1em;
+}
+menu h1.title {
+    float: left;
+    font-size: x-small;
+}
+ul.menu li {
+    display: inline;
+}
+ul.menu a {
+    padding: 0.5em 1em;
+}
+ul.menu a:hover {
+    background: none repeat scroll 0 0 #000000;
+}
+.g { border: 1px; }
+
+menu, aside { border: 1px solid; margin: 1px 1px 0;}
+section#container blockquote {
+    overflow: scroll;
+    background: #999;
+}

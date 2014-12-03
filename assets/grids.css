@@ -1,0 +1,129 @@
+.col {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.g {
+    display: flex;
+    display: -webkit-flex;
+    flex: auto;
+}
+
+.g > [class^='w-'],
+.g > [class*=' w-'] {
+    display: inline-block;
+    zoom: 1;
+    letter-spacing: normal;
+    word-spacing: normal;
+    vertical-align: middle;
+    text-rendering: auto;
+}
+
+.w-1-24th {
+    width: 4.1667%;
+}
+
+.w-1-12th {
+    width: 8.3333%;
+}
+
+.w-1-8th {
+    width: 12.5000%;
+}
+
+.w-1-6th {
+    width: 16.6667%;
+}
+
+.w-1-5th {
+    width: 20%;
+}
+
+.w-5-24ths {
+    width: 20.8333%;
+}
+
+.w-1-4th {
+    width: 25%;
+}
+
+.w-7-24ths {
+    width: 29.1667%;
+}
+
+.w-1-3rd {
+    width: 33.3333%;
+}
+
+.w-3-8ths {
+    width: 37.5000%;
+}
+
+.w-2-5ths {
+    width: 40%;
+}
+
+.w-5-12ths {
+    width: 41.6667%;
+}
+
+.w-11-24ths {
+    width: 45.8333%;
+}
+
+.w-half {
+    width: 50%;
+}
+
+.w-13-24ths {
+    width: 54.1667%;
+}
+
+.w-7-12ths {
+    width: 58.3333%;
+}
+
+.w-3-5ths {
+    width: 60%;
+}
+
+.w-5-8ths {
+    width: 62.5000%;
+}
+
+.w-2-3rds {
+    width: 66.6667%;
+}
+
+.w-17-24ths {
+    width: 70.8333%;
+}
+
+.w-3-4ths {
+    width: 75%;
+}
+
+.w-19-24ths {
+    width: 79.1667%;
+}
+
+.w-4-5ths {
+    width: 80%;
+}
+
+.w-5-6ths {
+    width: 83.3333%;
+}
+
+.w-7-8ths {
+    width: 87.5000%;
+}
+
+.w-11-12ths {
+    width: 91.6667%;
+}
+
+.w-whole {
+    width: 100%;
+}

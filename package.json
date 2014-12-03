@@ -1,0 +1,33 @@
+{
+  "name": "shinycode",
+  "version": "1.0.0",
+  "description": "bulletproof experimental collaborative ide",
+  "main": "index.js",
+  "repository": "https://github.com/gstack/shinycode.git",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "ide",
+    "web",
+    "javascript",
+    "ace",
+    "cool"
+  ],
+  "author": "gstack and tso",
+  "license": "IDK-MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "brfs": "^1.2.0",
+    "browserify": "^6.3.2",
+    "coffee-script": "^1.8.0",
+    "connect": "^3.3.3",
+    "dnode": "^1.2.0",
+    "express": "^4.10.2",
+    "jayson": "^1.1.2",
+    "lodash": "^2.4.1",
+    "through": "^2.3.6",
+    "ws": "^0.5.0"
+  }
+}

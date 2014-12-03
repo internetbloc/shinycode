@@ -1,0 +1,137 @@
+/* Base / Block CSS */
+
+@import "reset.css";
+@import "custom.less";
+
+/* Icons! c/o icomoon.io */
+@import "icomoon-icons.css";
+
+/* IDE styles */
+
+@import "obsidian.css";
+
+/* inner tabs (todo: layout.less) */
+
+.tab-content-editor
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#center_wrap
+{
+    position: fixed!important;
+    top: 32px!important;
+    left: 0px!important;
+    right: 0px!important;
+    bottom: 0px!important;
+    width: 100%!important;
+    height: auto!important;
+}
+
+/* Editor Wrap */
+.codeedit
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.editor
+{
+    width: 100%;
+    height: 100%;
+}
+
+/* Custom menu (height:auto intentionally creates ugly black bar) */
+
+.shinycode-menu
+{
+/*  height: auto!important; */
+  text-align: left;
+}
+
+/**
+ * pure
+ * for now, using the entire pure.css
+ * in future, import individual <element>.css
+ * and/or extend~
+ */
+@import "pure/pure.css";
+
+/**
+ * custom theming */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#tab_content {
+     max-height: 97vh;
+    overflow: clip;
+    max-width: 66.6666vw;
+}
+
+.sidebar-ls {
+    padding: 1em;
+}
+
+.sidebar-ls h2 {
+    font-size: 1em;
+}
+
+.sidebar-ls ul {
+    list-style: circle;
+    }
+.sidebar-ls li {
+    margin-left: 1em;
+}
+/*ul or ol or whatever*/.filetree {
+    padding: 1em;
+}
+
+/**
+ * this is for sticky footer that works in all browsers
+ */
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+#footer {
+    display: none;
+    z-index: 9999;
+    height: 64px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    text-align: right;
+    background: #3f3f3f;
+    color: #fff;
+    font-size: xx-small;
+}
+/**
+ * /sticky footer */
+
+/**
+ FUN FUN FUN */
+
+header#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 2px;
+}
+
+header#menu menubar li {
+    position: static;
+}
